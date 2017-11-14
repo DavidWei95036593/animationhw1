@@ -1,7 +1,4 @@
 
-
-
-
 //Question 1
 let box1 = document.querySelector("#question1");
 box1.addEventListener("click",function(){
@@ -20,30 +17,23 @@ box2.addEventListener("click",function(){
 
 	}else{box2.classList.add("move-diaright");
 	}
-	// if (box2.classList.contains("red")){
-	// 	box2.classList.remove("red");
-	// 	box2.classList.add("blue");}
-	// 	else{
-	// 		box2.classList.remove("blue");
-	// 		box2.classList.add("red")}
+
 
 })
 //Question 4
 let box3 = document.querySelector("#box3");
 let input1 = document.querySelector("#question4");
 input1.addEventListener("click",function(event){
-	if(box3.classList.contains("move-once")){
-		box3.classList.remove("move-once");
+	if(box3.classList.contains("move-around")){
+		box3.classList.remove("move-around");
 	}
 		else{
-		box3.classList.add("move-once");
+		box3.classList.add("move-around");
 		// box3.classList.remove("move-once");
 
 	}
 
 })
-
-
 
 //Question5
 let input = document.querySelector("#question5");

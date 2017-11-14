@@ -23,8 +23,8 @@ div{
 	background-color:blue;
 	animation: diaright 2s alternate 1;
 }
-.move-once{
-	animation: moveonce 2s alternate 1;
+.move-around{
+	animation: movearound 2s alternate 1;
 }
 #box3{
 	background-color: purple;
@@ -35,7 +35,7 @@ div{
 	background-color: green;
 	animation: example 2s alternate infinite;
 }
-@keyframes moveonce{
+@keyframes movearound{
 	0%{}
 	25%{margin-left:100px;}
 	50%{margin-top:100px;}
@@ -52,8 +52,5 @@ div{
 	0%{}
 	 50%{margin-left: 100px;
 		margin-top:100px;}
-	 100%{
-	/* 	margin-left:0;
-	 	margin-top:0;*/
-	 }
+
 }
