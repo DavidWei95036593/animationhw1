@@ -1,3 +1,24 @@
-html{
-	color:red;
+div{
+	width: 100px;
+	height: 100px;
+}
+#question1{
+	background-color: red;
+	transition:1s;
+}
+#question2{
+	transition:2s;
+}
+.red{
+	background-color:red; 
+}
+.blue{
+	background-color: blue;
+}
+.move-down{
+	margin-top:100px;
+}
+.move-diaright{
+	margin-left: 100px;
+	margin-top:100px;
 }
