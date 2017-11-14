@@ -12,7 +12,7 @@ box1.addEventListener("click",function(){
 })
 
 //Question 2
-let box2 = document.querySelector("#question2")
+let box2 = document.querySelector("#question2");
 box2.addEventListener("click",function(){
 	if (box2.classList.contains("move-diaright")){
 		box2.classList.remove("move-diaright");
@@ -25,6 +25,20 @@ box2.addEventListener("click",function(){
 			box2.classList.add("red")}
 	
 })
+//Question 4
+let box3 = document.querySelector("#box3");
+let input1 = document.querySelector("#question4");
+input1.addEventListener("click",function(event){
+	if(box3.classList.contains("move-once")){
+		box3.classList.remove("move-once");
+	}
+		else{
+		box3.classList.add("move-once");
+	}
+	
+})
+
+
 
 //Question5
 let input = document.querySelector("#question5");
