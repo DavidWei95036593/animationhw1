@@ -1,5 +1,9 @@
-let box1 = document.querySelector("#question1");
+
+
+
+
 //Question 1
+let box1 = document.querySelector("#question1");
 box1.addEventListener("click",function(){
 	if (box1.classList.contains("move-down")){
 		box1.classList.remove("move-down");
@@ -21,3 +25,12 @@ box2.addEventListener("click",function(){
 			box2.classList.add("red")}
 	
 })
+
+//Question5
+let input = document.querySelector("#question5");
+input.addEventListener("keydown", function(event){
+	if(event.key ==="ArrowDown"){
+		console.log("You've pressed the down key!")
+	}
+	
+});
